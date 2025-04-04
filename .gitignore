@@ -1,18 +1,23 @@
-# Ignore node_modules
+# 🧠 مجلدات يجب تجاهلها دائمًا
 node_modules/
+dist/
+build/
 
-# Ignore environment files
+# 🔐 ملفات البيئة الحساسة
 .env
+.env.local
+.env.production
 
-# Ignore log files
+# ⚒️ ملفات مؤقتة أو Debug
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore system files
+# ⚙️ ملفات إعدادات بيئة التطوير
+.idea/
+.vscode/
+
+# 🖥️ ملفات نظام التشغيل
 .DS_Store
 Thumbs.db
-
-# Ignore build outputs
-dist/
-build/
