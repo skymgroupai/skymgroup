@@ -1,0 +1,16 @@
+
+
+{
+    "name": "skymgroup-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for SkymGroup Project",
+    "scripts": {
+      "dev": "tsc --watch"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "devDependencies": {
+      "typescript": "^5.0.0"
+    }
+  }
+  

@@ -1,0 +1,21 @@
+/* 🔥 هذا الملف يوضع في: frontend/public/css/styles.css */
+
+/* Import Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  background-color: #1a1a1a;
+}
+
+.section-dark {
+  background-color: #2a2a2a;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.05);
+}
